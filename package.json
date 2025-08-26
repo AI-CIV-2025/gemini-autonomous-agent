@@ -1,0 +1,14 @@
+{
+  "name": "gemini-autonomous-agent",
+  "version": "1.0.0",
+  "description": "A multi-agent autonomous system using Gemini.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0"
+  }
+}

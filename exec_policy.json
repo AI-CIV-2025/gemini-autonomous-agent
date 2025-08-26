@@ -1,0 +1,39 @@
+{
+  "comment": "Default execution policy for the Gemini agent. Only allows safe, common commands.",
+  "allow_bins": [
+    "echo",
+    "ls",
+    "cat",
+    "grep",
+    "sed",
+    "awk",
+    "node",
+    "python3",
+    "bash",
+    "sh",
+    "mkdir",
+    "touch",
+    "cp",
+    "mv",
+    "find",
+    "xargs",
+    "date",
+    "sleep",
+    "test",
+    "git"
+  ],
+  "allow_net_bins": [
+    "curl",
+    "wget"
+  ],
+  "deny_patterns": [
+    "rm -rf",
+    "sudo",
+    "apt-get",
+    "npm install",
+    "pip install",
+    "docker",
+    "ssh",
+    "chmod"
+  ]
+}
